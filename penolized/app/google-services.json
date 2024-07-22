@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "673450683844",
+    "firebase_url": "https://penolized-default-rtdb.firebaseio.com",
+    "project_id": "penolized",
+    "storage_bucket": "penolized.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673450683844:android:f127b4ab64a617d0fa4891",
+        "android_client_info": {
+          "package_name": "com.example.penolized"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673450683844-ca0hvbk70b0uo6fagcb39jkiciuah93m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3ZOnYqucpJM2arkWESr0NnwQE6kMVz44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673450683844-ca0hvbk70b0uo6fagcb39jkiciuah93m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673450683844:android:0f0354f8f5e5ac1afa4891",
+        "android_client_info": {
+          "package_name": "com.example.personalmedicalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673450683844-ca0hvbk70b0uo6fagcb39jkiciuah93m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3ZOnYqucpJM2arkWESr0NnwQE6kMVz44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673450683844-ca0hvbk70b0uo6fagcb39jkiciuah93m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

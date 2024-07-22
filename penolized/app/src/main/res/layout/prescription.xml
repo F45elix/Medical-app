@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".prescription"
+    android:background="@drawable/icon"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/prescription_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:gravity="top"
+        android:hint="Enter prescription details"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/patient_mobile_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient's Mobile Number"
+        android:inputType="phone"
+        android:maxLength="15"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Prescription"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/medicine_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medicine Name"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Medicine"
+        android:layout_marginTop="16dp"/>
+    <!-- New UI elements for location input -->
+       <Button
+        android:id="@+id/find_pharmacy_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Nearest Pharmacy"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>

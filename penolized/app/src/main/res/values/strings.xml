@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Personal Medical APP</string>
+    <string name="medical_data">medical data</string>
+    <string name="patient_name">Patient Name</string>
+    <string name="Birth_Cert_No">Birth Cert NO</string>
+    <string name="medicines_given">Medicines given</string>
+    <string name="disease_diagnosed">Disease Diagnosed</string>
+    <string name="side_effects_allergic_reactions">SIDE EFFECTS / ALLERGIC REACTIONS</string>
+    <string name="add_description">Add Description</string>
+</resources>

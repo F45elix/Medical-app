@@ -1,0 +1,95 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/icon"
+    >
+
+    <EditText
+        android:id="@+id/PatientName"
+        android:layout_width="287dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="68dp"
+        android:hint="Patient Name:"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/BirthcertNo"
+        android:layout_width="289dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="40dp"
+        android:hint="Birth Cert No:"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/PatientName"
+        app:layout_constraintHorizontal_bias="1.0"
+
+        app:layout_constraintStart_toStartOf="@+id/PatientName"
+        app:layout_constraintTop_toBottomOf="@+id/PatientName" />
+
+
+
+    <EditText
+        android:id="@+id/Medicinesgiven"
+        android:layout_width="294dp"
+        android:layout_height="43dp"
+        android:hint="Medicines given:"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/Submit"
+        app:layout_constraintEnd_toEndOf="@+id/DiseaseDiagnosed"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="@+id/DiseaseDiagnosed"
+        app:layout_constraintTop_toBottomOf="@+id/DiseaseDiagnosed"
+        app:layout_constraintVertical_bias="0.143" />
+
+    <EditText
+        android:id="@+id/DiseaseDiagnosed"
+        android:layout_width="288dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="40dp"
+        android:hint="Disease Diagnosed:"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/BirthcertNo"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="@+id/BirthcertNo"
+        app:layout_constraintTop_toBottomOf="@+id/BirthcertNo" />
+
+    <EditText
+        android:id="@+id/sideeffects"
+        android:layout_width="291dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="116dp"
+        android:hint="SIDE EFFECTS/ALLERGIC REACTIONS:"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/DiseaseDiagnosed"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Medicinesgiven"
+        app:layout_constraintTop_toBottomOf="@+id/DiseaseDiagnosed" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="253dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="36dp"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sideeffects" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
