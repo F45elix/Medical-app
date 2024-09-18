@@ -2,6 +2,7 @@ Patient Data Mobile App README
 
 Welcome to the Patient Data Mobile App! This application is built with Java and Kotlin using Android Studio. It allows users to input patient data, store it securely in Firebase, and provides various features to enhance healthcare management.
 
+
 Table of Contents
 Overview
 Features
